@@ -1,0 +1,25 @@
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Triangle Star Pattern</title>
+</head>
+<body>
+
+  <h2>Triangle Star Pattern</h2>
+  <pre id="triangle"></pre>
+
+  <script>
+    let rows = 5; // You can change this to make a larger triangle
+    let pattern = "";
+
+    for (let i = 1; i <= rows; i++) {
+      pattern += "*".repeat(i) + "\n";
+    }
+
+    document.getElementById("triangle").innerText = pattern;
+  </script>
+
+</body>
+</html>
